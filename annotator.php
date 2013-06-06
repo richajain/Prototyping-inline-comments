@@ -8,4 +8,4 @@ $wgExtensionMessagesFiles['annotator'] = $dir . 'annotator.i18n.php';
 
 //hooks
 $wgAutoloadClasses['annotatorHooks'] = $dir . 'annotator.hooks.php';
-$wgHooks['BeforePageDisplay'] = 'annotatorHooks::onBeforePageDisplay';
+$wgHooks['BeforePageDisplay'][] = 'annotatorHooks::onBeforePageDisplay';

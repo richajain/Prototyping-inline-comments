@@ -7,6 +7,7 @@ class annotatorHooks {
 
 	*/
 	public static function onBeforePageDisplay( &$output, &$skin ) {
-		
+	
+		return true;		
 	}
 }
