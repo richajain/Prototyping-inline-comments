@@ -7,7 +7,7 @@ class annotatorHooks {
 
 	*/
 	public static function onBeforePageDisplay( &$output, &$skin ) {
-	
+		$output->addModules( 'ext.annotator' );
 		return true;		
 	}
 }
