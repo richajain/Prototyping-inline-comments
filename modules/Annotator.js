@@ -3,7 +3,7 @@
 */
 ( function ( mw, $ ) {
   $( function( $ ) {
-   
+  	
   } )
 }( mediaWiki, jQuery ) );
 

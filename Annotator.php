@@ -13,7 +13,7 @@ $wgAnnotatorResourcePaths = array(
 );
 $wgResourceModules['ext.annotator'] = array(
 	'scripts' => array(
-		'Annotator.min.js',
+		'Annotator-full.min.js',
 		'Annotator.js',
 		),
 	'styles' => 'Annotator.min.css',
